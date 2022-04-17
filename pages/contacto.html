@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1 class='titulo'><a href="../index.html">Electronics</a></h1>
+            <div class="contenedor-nav">
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg></a>
+                <nav class="navegacion">
+                    <a class="nav" href="../index.html">Inicio</a>
+                    <a class="nav" href="../pages/galeria.html" target="_blank">Galeria</a>
+                    <a class="nav" href="../pages/tienda.html">Tienda </a>
+                    <a class="nav" href="../pages/acercade.html">Acerca de</a>
+                    <a class="nav" href="../pages/contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="contenedor-form-contacto">
+            <!-- <img class="mail" src="../imagenes/Mail-removebg-preview.png" alt=""> -->
+            <form id="enviar-mail" class="formulario">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <div>
+                        <label for="">Nombre</label>
+                        <input id="nombre" class="input-contacto" type="text" name="" id=""
+                            placeholder="Escribe tu nombre">
+                    </div>
+                    <label for="">Apellido</label>
+                    <input id="apellido" class="input-contacto" type="text" name="" id="" placeholder="Apellido">
+                    <div>
+                        <label for="">Telefono</label>
+                        <input id="telefono" class="input-contacto" type="phone" placeholder="Telefono">
+                    </div>
+                    <label for="">E-mail</label>
+                    <input id="email" class="input-contacto" type="email" placeholder="Email">
+                </fieldset>
+                <fieldset>
+                    <legend>Información del producto</legend>
+                    <div>
+                        <label for="">Compra o Postventa</label>
+                        <select id="opciones">
+                            <option value="" disabled selected>-- Seleccione --</option>
+                            <option value="Compra">Compra</option>
+                            <option value="Postventa">Postventa</option>
+                        </select>
+                        <div>
+                            <label for="">Mensaje</label>
+                            <textarea id="mensaje" class="input-contacto" name="" id="" cols="30" rows="10"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contacto</legend>
+
+
+                    <div class="forma-contacto">
+                        <p>Como desea ser Contacatado</p>
+
+                        <label for="contactar-telefono">Teléfono</label>
+                        <input name="contacto" type="radio" value="telefono" id="contactar-telefono">
+
+                        <label for="contactar-email">Email</label>
+                        <input name="contacto" type="radio" value="email" id="contactar-email">
+
+                        <p>Si eligió teléfono, elija la fecha y la hora para ser contactado</p>
+
+                        <label for="fecha">Fecha:</label>
+                        <input class="dia" type="date" id="fecha">
+
+                        <label for="hora">Hora:</label>
+                        <input class="hora" type="time" id="hora" min="09:00" max="18:00">
+                    </div>
+                </fieldset>
+                <button id='enviar' class="input-contacto-submit" type="submit">Enviar</button>
+                <button id="boton-reset" class="input-contacto-reset" type="button">Limpiar Form</button>
+        </div>
+        </div>
+        </form>
+        </div>
+   
+    </main>
+
+        <footer class="footer">
+
+
+
+            <div class="contenedor-video">
+                <div>
+                    <h2 class="titulo-vdeo">Titulo video</h2>
+                </div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, perspiciatis. Aspernatur
+                        explicabo
+                        nostrum aut modi? Suscipit laudantium fugiat porro inventore, mollitia quo quidem molestias
+                        temporibus! Ea corrupti maiores expedita voluptates.</p>
+                </div>
+                <div class="video">
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9Easz3v1loU"
+                        title="YouTube    video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+
+            <div class="contenedor-nav-footer">
+                <nav class="navegacion">
+                    <a class="nav" href="../index.html">Inicio</a>
+                    <a class="nav" href="../pages/galeria.html">Galeria</a>
+                    <a class="nav" href="../pages/tienda.html">Tienda </a>
+                    <a class="nav" href="../pages/acercade.html">Acerca de</a>
+                    <a class="nav" href="../pages/contacto.html">Contacto</a>
+                </nav>
+
+            </div>
+
+
+            <div class="contenedor-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.574312452264!2d-58.43003348565651!3d-34.589636280463054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb587e9cc6789%3A0x52848128575683de!2sArmenia%201644%2C%20C1414%20DKJ%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647452435279!5m2!1ses!2sar"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contenedor-redes">
+                    <p>Seguinos en nuestras redes Sociales</p>
+                    <img class="redes" src="../imagenes/redes.png" alt="">
+                </div>
+                <a class="contactanos" href="../pages/contacto.html">Contactanos</a>
+            </div>
+
+        </footer>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
