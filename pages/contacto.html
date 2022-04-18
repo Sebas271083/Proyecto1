@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../estilos/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
@@ -20,19 +21,35 @@
         <header>
             <h1 class='titulo'><a href="../index.html">Electronics</a></h1>
             <div class="contenedor-nav">
-                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg></a>
-                <nav class="navegacion">
-                    <a class="nav" href="../index.html">Inicio</a>
-                    <a class="nav" href="../pages/galeria.html" target="_blank">Galeria</a>
-                    <a class="nav" href="../pages/tienda.html">Tienda </a>
-                    <a class="nav" href="../pages/acercade.html">Acerca de</a>
-                    <a class="nav" href="../pages/contacto.html">Contacto</a>
-                </nav>
-            </div>
+                <nav class="navegacion navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" href="./galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" href="./tienda.html">Tienda</a>
+                          </li>
+                          <li class="nav-item text-light">
+                            <a class="nav-link text-light" href="./acercade.html">Acerca de</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contacto</a>
+                          </li>
+                        </ul>   
+                      </div>
+                    </div>
+                  </nav>
+                            </div>
         </header>
-
+    
         <div class="contenedor-form-contacto">
             <!-- <img class="mail" src="../imagenes/Mail-removebg-preview.png" alt=""> -->
             <form id="enviar-mail" class="formulario">
