@@ -1395,13 +1395,14 @@ header a:visited {
     height: auto !important;
     margin-left: auto;
     margin-right: auto;
-}
+} 
 .slide-boton {
     background-color: #000 !important;
 }
 
 #carouselExampleIndicators {
-    background-color: rgb(214, 214, 214);
+    background-image: url("/imagenes/Tecnología.jpg");
+    background-size: contain;
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: auto;
