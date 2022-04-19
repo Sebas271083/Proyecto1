@@ -58,12 +58,12 @@ function validarFormulario(e){
             error.remove();
         }
         
-        e.target.classList.remove('border','border-red-500')
-        e.target.classList.add('border','border-green-500')
+        e.target.classList.remove('bg-danger')
+        e.target.classList.add('bg-success', 'p-2', 'text-dark', 'bg-opacity-10')
 
     } else{
-        e.target.classList.remove('border','border-green-500')
-        e.target.classList.add('border', 'border-red-500')
+        e.target.classList.remove('bg-success', 'p-2', 'text-dark', 'bg-opacity-10')
+        e.target.classList.add('bg-danger')
 
         mostrarError('Todos los campos son obligatorios');
     }
@@ -76,12 +76,12 @@ function validarFormulario(e){
             if(error){
                 error.remove();
             }
-            e.target.classList.remove('border','border-red-500')
-            e.target.classList.add('border','border-green-500')
+            e.target.classList.remove('bg-danger')
+            e.target.classList.add('bg-success', 'p-2', 'text-dark', 'bg-opacity-10')
     
         } else{
-            e.target.classList.remove('border','border-green-500')
-            e.target.classList.add('border', 'border-red-500')
+            e.target.classList.remove('bg-success', 'p-2', 'text-dark', 'bg-opacity-10')
+            e.target.classList.add('bg-danger')
     
             mostrarError('Email no valido');
         }
@@ -97,12 +97,16 @@ function mostrarError(mensaje){
     const mensajeError = document.createElement('p');
     mensajeError.textContent = mensaje
     
-    mensajeError.classList.add('border', 'border-500','red', 'bg-white', 'text-red-500','p-3', 'mt-5', 'text-center', 'error')
+    mensajeError.classList.add('bg-danger', 'mt-5', 'text-light')
 
     const errores = document.querySelectorAll('.error');
     if (errores.length === 0){
     formulario.appendChild(mensajeError);
     }
+
+    setTimeout(()=>{
+        mensajeError.remove(); //Elimina el mensaje de error
+    }, 2000)
 }
 
 //Envia el Email
@@ -115,7 +119,7 @@ function enviarEmail(e){
 
             const parrafo = document.createElement('p');
             parrafo.textContent = 'El mensaje se envio correctamente';
-            parrafo.classList.add('text-center', 'my-10', 'p-2', 'bg-green-500', 'text-white', 'font-bold', 'uppercase')
+            parrafo.classList.add('text-center', 'my-10', 'p-2', 'bg-success', 'mt-3', 'text-white', 'font-bold', 'uppercase')
 
 
             //Inserta el parrafo antes del spinner

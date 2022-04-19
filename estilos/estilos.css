@@ -90,13 +90,7 @@
         /* z-index: 10; */
     }
     
- 
-    .botones {
-        margin-top: 20px;
-        padding: 20px;
-        text-align: center;
-    }
-    
+
     .btn-comprar {
         /* margin-left: 50px; */
         height: 50px;
@@ -266,6 +260,7 @@ table {border-collapse:collapse; border: none;}
 header a:visited {
     color: #fff;
 }
+
 
 .contenedor-anuncios {
     display: flex;
@@ -1395,6 +1390,24 @@ header a:visited {
     background-color: #fff;
 }
 
+.imagen-carousel {
+    width: 30% !important;
+    height: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide-boton {
+    background-color: #000 !important;
+}
+
+#carouselExampleIndicators {
+    background-color: rgb(214, 214, 214);
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70% !important;
+}
 
 .card-anuncio:hover {
     border: solid 2px rgb(0, 0, 0);
