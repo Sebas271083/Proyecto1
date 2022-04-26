@@ -4,315 +4,36 @@
     box-sizing:border-box;
 }
 
-@media screen and (min-width: 260px) and (max-width: 768px) {
-    .h-6 {
-        display: block;
-        width: 30px;
-        height: 30px;
-        background-color: #000;
-    }
-    
-    .banner {
-        width: auto;
-    }
-
-    
-    .navegacion{
-        display: block;
-    }
-
-    .text-light {
-        color: #000 !important;
-    }
-    h2 {
-        /* margin-top: 60px; */
-        color: blue;
-        text-align: center;
-    }
-    
-    .titulo {
-        font-size: 2em;
-        font-weight: bold;
-        padding-top: 20px; 
-        text-align: center;
-        color: #fff;
-        color: -webkit-link;
-        cursor: pointer;
-        text-decoration: none;
-        background-color: rgb(27, 91, 128);;
-
-    }
-
-    header h1 a:visited {
-        color: #000;
-    }
-
-    .contenedor-principal {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contenedor-principal p{
-        color: #000;
-        text-align: justify;
-        margin-top: 20px;
-        justify-content: center;
-        align-content: center;
-       
-    }
-
-    .contenedor-parrafo {
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        justify-content: center;
-        width: 100%;
-        background-color: rgb(22, 152, 228);
-        
-    }
-
-
-
-    .contenedor-reloj {
-        /* width: auto; */
-        /* height: 180px; */
-        align-self:center ;
-        margin-right: 60px;
-        margin-left: 80px;
-        margin-top: 60px;
-    }
-    
-    .imagen-reloj {
-        justify-content: center;
-
-        /* position: absolute; */
-        width: 200px;
-        height: auto;
-        /* z-index: 10; */
-    }
-    
-
-    .btn-comprar {
-        /* margin-left: 50px; */
-        height: 50px;
-        width: 150px;
-        border-radius: 20px;
-        background-color: rgb(10, 33, 46);
-        color: #fff;
-        font-size: 18px;
-        margin-bottom: 10px;
-
-    }
-    
-    .btn-comprar:hover {
-        cursor: pointer;
-        background-color: rgb(27, 91, 128);
-    }
-    
-    .btn-detalle {
-        justify-self: center;
-        background-color: rgb(27, 91, 128);
-        height: 50px;
-        width: 150px;
-        border-radius: 20px;
-        color: #fff;
-        font-size: 18px;
-    }
-    
-    .btn-detalle:hover {
-        background-color: rgb(10, 33, 46);
-        cursor: pointer;
-    }
-
-    .contenedor-detalle{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenedor-detalle div {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contenedor-detalle p{
-        margin: 30px;
-        text-align: justify;
-    }
-
-    .imagen-reloj-rotar, .imagen-reloj-rotar2, .imagen-reloj-detalle{
-        width: auto;
-        max-width: 150px;
-        margin: 50px;
-    }
-
-    .imagen-reloj-detalle{
-        display: none;
-    }
-
-    .imagen-reloj-rotar{
-    transform: rotate(100deg);
-    }
-    .contenedor-img-detalle p{
-        text-align: justify;
-        margin: 30px;
-    }
-    
-.formas-pago {
-    padding: 20px;
-    border-left: gray 1px solid;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.titulo-pagos {
-    color: #000;
-    margin-bottom: 20px;
-    margin-top: 0;
-    margin-right: 60px;
-}
-
-.formas-pago h2{
-    margin-left: 15px;
-}
-
-.tabla th{
-    border: #000 solid 1px;
-    /* width: 100%; */
-    width: 250px;
-    margin-bottom: 150px;
-}
-
-.gris {
-    background-color: rgb(221, 220, 220);
-}
-
-table {border-collapse:collapse; border: none;}
-
-.contactanos {
-    width:  100%;
-    padding: 10px;
+.btn-detalle {
+    justify-self: center;
+    background-color: rgb(27, 91, 128);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
     color: #fff;
-    background-color: rgb(109, 185, 226) ;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-
+    font-size: 18px;
 }
 
-.contactanos:hover {
-    background-color: rgb(176, 208, 224);
-    color: #000;
-}
-
-.contenedor-mapa div {
-    margin: 30px;
-}
-
-.contenedor-video{
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-top: 30px    ;
-    margin-bottom: 30px;
-    background-color: rgb(33, 131, 174);
-}
-
-.contenedor-video p {
-    margin-bottom: 30px;
-}
-
-/* GALERIA*/
-.contenedor-imagen {
-        display: grid;
-        gap: 30px;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        margin-bottom: 30px;
-        padding: 15px;
-        width: auto;
-    }
-
-.contenedor-imagen div {
-    text-align: center;
-    /* width: 350px; */
-    /* margin: 10px; */
-}
-
-.imagen {
-    margin: 30px;
-    width: 100%;
-    height: auto;
-    transition: .5s;
-    border-radius: 20px;
-    
-}
-
-.imagen:hover {
-    transform: scale(1.1);
-    /* padding: 20px; */
-    border-radius: 20px;
-}
-
-/* Estilos de tienda */
-
-header a:visited {
-    color: #fff;
-}
-
-
-.contenedor-anuncios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(214, 214, 214);
-    align-content: center;
-}
-
-.card-anuncio {
-    width: 300px;
-    padding: 20px;
-    border: solid 1px rgb(138, 138, 138);
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    background-color: #fff;
-}
-
-
-.card-anuncio:hover {
-    border: solid 2px rgb(0, 0, 0);
+.btn-detalle:hover {
+    background-color: rgb(10, 33, 46);
     cursor: pointer;
 }
 
-.imagen-tienda {
-    width: 100%;
+.btn-comprar {
+    /* margin-left: 50px; */
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(10, 33, 46);
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+
 }
 
-a:visited {
-    color: #0000;
-}
-
-.contenido-anuncio {
-    margin: 15px;
-}
-
-.precio {
-    margin: 15px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.descripcion {
-    margin-top: 10px;
-    text-align: justify;
+.btn-comprar:hover {
+    cursor: pointer;
+    background-color: rgb(27, 91, 128);
 }
 
 .boton-amarillo-block{
@@ -434,6 +155,83 @@ option{
     margin-top: 30px;
     margin-right: 90px;
 }
+.titulo-pagos {
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-right: 60px;
+}
+
+.formas-pago h2{
+    margin-left: 15px;
+}
+
+.tabla th{
+    border: #000 solid 1px;
+    /* width: 100%; */
+    width: 250px;
+    margin-bottom: 150px;
+}
+
+.gris {
+    background-color: rgb(221, 220, 220);
+}
+
+table {border-collapse:collapse; border: none;}
+
+.card-anuncio {
+    width: 300px;
+    padding: 20px;
+    border: solid 1px rgb(138, 138, 138);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.card-anuncio:hover {
+    border: solid 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.imagen-tienda {
+    width: 100%;
+}
+
+a:visited {
+    color: #0000;
+}
+
+.contenido-anuncio {
+    margin: 15px;
+}
+
+.precio {
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descripcion {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.contenedor-video{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 30px    ;
+    margin-bottom: 30px;
+    background-color: rgb(33, 131, 174);
+}
+
+.contenedor-video p {
+    margin-bottom: 30px;
+}
+
 
 .parrafo-redes {
     text-align: center;
@@ -456,6 +254,212 @@ option{
     height: auto;
     border-radius: 5px;
 }
+
+@media screen and (min-width: 260px) and (max-width: 768px) {
+    .h-6 {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+    }
+    
+    .banner {
+        width: auto;
+    }
+
+    
+    .navegacion{
+        display: block;
+    }
+
+    .text-light {
+        color: #000 !important;
+    }
+    h2 {
+        /* margin-top: 60px; */
+        color: blue;
+        text-align: center;
+    }
+    
+    .titulo {
+        font-size: 2em;
+        font-weight: bold;
+        padding-top: 20px; 
+        text-align: center;
+        color: #fff;
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgb(27, 91, 128);;
+
+    }
+
+    header h1 a:visited {
+        color: #000;
+    }
+
+    .contenedor-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor-principal p{
+        color: #000;
+        text-align: justify;
+        margin-top: 20px;
+        justify-content: center;
+        align-content: center;
+       
+    }
+
+    .contenedor-parrafo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(22, 152, 228);
+        
+    }
+
+
+
+    .contenedor-reloj {
+        /* width: auto; */
+        /* height: 180px; */
+        align-self:center ;
+        margin-right: 60px;
+        margin-left: 80px;
+        margin-top: 60px;
+    }
+    
+    .imagen-reloj {
+        justify-content: center;
+
+        /* position: absolute; */
+        width: 200px;
+        height: auto;
+        /* z-index: 10; */
+    }
+
+    .contenedor-detalle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-detalle div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor-detalle p{
+        margin: 30px;
+        text-align: justify;
+    }
+
+    .imagen-reloj-rotar, .imagen-reloj-rotar2, .imagen-reloj-detalle{
+        width: auto;
+        max-width: 150px;
+        margin: 50px;
+    }
+
+    .imagen-reloj-detalle{
+        display: none;
+    }
+
+    .imagen-reloj-rotar{
+    transform: rotate(100deg);
+    }
+    .contenedor-img-detalle p{
+        text-align: justify;
+        margin: 30px;
+    }
+    
+.formas-pago {
+    padding: 20px;
+    border-left: gray 1px solid;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.contactanos {
+    width:  100%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(109, 185, 226) ;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.contactanos:hover {
+    background-color: rgb(176, 208, 224);
+    color: #000;
+}
+
+.contenedor-mapa div {
+    margin: 30px;
+}
+
+
+
+/* GALERIA*/
+.contenedor-imagen {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-bottom: 30px;
+        padding: 15px;
+        width: auto;
+    }
+
+.contenedor-imagen div {
+    text-align: center;
+    /* width: 350px; */
+    /* margin: 10px; */
+}
+
+.imagen {
+    margin: 30px;
+    width: 100%;
+    height: auto;
+    transition: .5s;
+    border-radius: 20px;
+    
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+
+/* Estilos de tienda */
+
+header a:visited {
+    color: #fff;
+}
+
+
+.contenedor-anuncios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(214, 214, 214);
+    align-content: center;
+}
+
     .footer {
         background-color: #000;
     }
@@ -598,47 +602,9 @@ ul {
     padding: 20px;
 }
 
-.btn-comprar {
-    /* margin-left: 50px; */
-    height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: rgb(10, 33, 46);
-    color: #fff;
-    font-size: 18px;
-    margin-right: 40px;    
-}
-
-.btn-comprar:hover {
-    cursor: pointer;
-    background-color: rgb(27, 91, 128);
-}
-
-.btn-detalle {
-    justify-self: center;
-    background-color: rgb(27, 91, 128);
-    height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 18px;
-}
-
-.btn-detalle:hover {
-    background-color: rgb(10, 33, 46);
-    cursor: pointer;
-}
-
-/* .footer {
-    display: flex;
-    align-content: center;
-} */
-
 .contenedor-nav-footer {
     display: flex;
     margin-top: 30px;
-
-    /* margin-right: 0px; */
 }
 
 .contenedor-nav-footer .navegacion{
@@ -656,7 +622,6 @@ ul {
     margin-bottom: auto;
     margin: 30px;
     width: 45%;
-    /* margin-top: 120px; */
 }
 
 .contenedor-mapa p {
@@ -668,21 +633,6 @@ ul {
     grid-row: 2/2;
 }
 
-
-
-.contenedor-video{
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-bottom: 30px;
-    background-color: rgb(33, 131, 174);
-}
-
-.contenedor-video p {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .titulo-vdeo {
     color: #fff;
@@ -716,27 +666,7 @@ ul {
     /* width: 150px; */
 }
 
-.parrafo-redes {
-    text-align: center;
-}
-#Social_Icons {
-    width: 40px;
-    height: auto;
-}
-#twitter {
-    margin-left: 10px;
-    width: 40px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 5px;
-}
 
-#Layer_1 {
-    margin-left: 10px;
-    width: 40px;
-    height: auto;
-    border-radius: 5px;
-}
 
 .contactanos {
     width: 100%;
@@ -754,115 +684,6 @@ ul {
     background-color: rgb(176, 208, 224);
     color: #000;
 }
-
-.contenedor-form-contacto {
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-    padding: 40px;
-}
-
-fieldset {
-    color: #fff;
-    border: #fff solid 1px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 5px;
-}
-
-.input-contacto {
-    margin: 10px;
-    margin-left: 0;
-    width: 100%;
-    padding: 10px;
-    border-bottom: solid rgb(109, 185, 226) 3.5px;
-    border-radius: 10px;
-}
-
-
-select {
-    color: #000;
-}
-
-option{
-    color: #000;
-}
-
-.forma-contacto {
-    margin: 10px;
-}
-
-.forma-contacto p{
-    margin: 15px;
-    color: #fff;
-    font-weight: bold;
-}
-
-.dia, .hora {
-    color: #000;
-}
-
-
-.contenedor-form-contacto textarea{
-    height: 100px;
-}
-
-
-.input-contacto-submit {
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
-    background-color:  rgb(109, 185, 226);
-    color:#fff;
-    font-size: 15px;
-    margin-left: auto;
-    margin-top: 10px;
-}
-
-.input-contacto-reset {
-    width: 150px;
-    height: 50px;
-    border-radius: 30px;
-    background-color:  rgb(118, 180, 142);
-    color:#fff;
-    font-size: 15px;
-    margin-left: auto;
-    margin-top: 10px;
-}
-
-.input-contacto-submit:hover {
-    background-color: rgb(166, 197, 214);
-    color: #000;
-    cursor: pointer;
-    font-size: medium;
-}
-
-.input-contacto-reset:hover {
-    background-color: rgb(65, 100, 74);
-    color: #000;
-    cursor: pointer;
-    font-size: medium;
-}
-
-
-
-.input-contacto:hover::placeholder {
-    background-color: rgb(109, 185, 226);
-    color: #fff;
-}
-
-.input-contacto:hover{
-    background-color: rgb(109, 185, 226);
-}
-
-.mail {
-    width: 200px;
-    height: 200px;
-    margin-top: 30px;
-    margin-right: 90px;
-}
-
 
 .contenedor-detalle {
     display: grid;
@@ -882,7 +703,6 @@ option{
 .enlace:visited {
     color: #000;
 }
-
 
 .imagen-reloj-detalle {
     width: 150px;
@@ -918,36 +738,12 @@ option{
     margin-right: 60px;
 }
 
-.titulo-pagos {
-    color: #000;
-    margin-bottom: 20px;
-    margin-top: 0;
-    margin-right: 60px;
-}
-
-.formas-pago h2{
-    margin-left: 15px;
-}
-
 .contenedor-caracteristicas {
     grid-row: 2/2;
     grid-column: 1/2;
     width: 400px;
     margin-bottom: 50px;
 }
-
-.tabla th{
-    border: #000 solid 1px;
-    /* width: 100%; */
-    width: 250px;
-    margin-bottom: 150px;
-}
-
-.gris {
-    background-color: rgb(221, 220, 220);
-}
-
-table {border-collapse:collapse; border: none;}
 
 .p-credito {
     margin-left: 10px;
@@ -999,16 +795,6 @@ header a:visited {
     align-content: center;
 }
 
-.card-anuncio {
-    width: 300px;
-    padding: 20px;
-    border: solid 1px rgb(138, 138, 138);
-    border-radius: 20px;
-    margin: 10px;
-    text-align: center;
-    background-color: #fff;
-}
-
 .imagen-carousel {
     width: 30% !important;
     height: auto !important;
@@ -1029,48 +815,7 @@ header a:visited {
     width: 70% !important;
 }
 
-.card-anuncio:hover {
-    border: solid 2px rgb(0, 0, 0);
-    cursor: pointer;
-}
 
-.imagen-tienda {
-    width: 100%;
-}
-
-a:visited {
-    color: #0000;
-}
-
-.contenido-anuncio {
-    margin: 15px;
-}
-
-.precio {
-    margin: 15px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.descripcion {
-    margin-top: 10px;
-    text-align: justify;
-}
-
-.boton-amarillo-block{
-    background-color: yellow;
-    border-radius: 15px;
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    padding: 10px;
-}
-
-.boton-amarillo-block:hover {
-
-    background-color: rgb(224, 224, 98);
-}
 
 /* Galeria */
 
