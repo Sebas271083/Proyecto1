@@ -1,0 +1,25 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Estilos Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss estilos/scss/estilos.scss estilos/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebas271083/Proyecto1.git"
+  },
+  "author": "Sebastian Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebas271083/Proyecto1/issues"
+  },
+  "homepage": "https://github.com/Sebas271083/Proyecto1#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
