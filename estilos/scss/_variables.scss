@@ -3,3 +3,21 @@ $color-negro: #000;
 $color-amarillo: #ffff00;
 $color-principal: rgb(27, 91, 128);
 $color-contacto: rgb(109, 185, 226);
+
+$redes: (
+    instagram: #000,
+    twitter: #fff,
+    facebook: #fff
+);
+
+$estilos: (
+    color: $color-blanco,
+    ancho: 40px,
+    alto: auto
+);
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+    
