@@ -184,22 +184,21 @@ table {border-collapse:collapse; border: none;}
 .card-anuncio {
     width: 300px;
     padding: 20px;
-    border: solid 1px rgb(138, 138, 138);
+    border: solid 1px #8a8a8a;
     border-radius: 20px;
     margin: 10px;
     text-align: center;
-    background-color: $color-blanco;
-}
-
-
-.card-anuncio:hover {
-    border: solid 2px rgb(0, 0, 0);
-    cursor: pointer;
-}
-
-.imagen-tienda {
+    background-color: #fff;
+  
+    &:hover {
+      border: solid 2px black;
+      cursor: pointer;
+    }
+  }
+  
+  .imagen-tienda {
     width: 100%;
-}
+  }
 
 a:visited {
     color: $color-negro;
@@ -809,6 +808,7 @@ header a:visited {
 }
 
 #carouselExampleIndicators {
+    display: flex;
     background-image: url("/imagenes/Tecnología.jpg");
     background-size: contain;
     margin-bottom: 5px;

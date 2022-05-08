@@ -573,6 +573,14 @@ a:visited {
     justify-content: space-around;
     background-color: #d6d6d6;
     align-content: center; }
+
+  .contenedor-carousel {
+    align-items: center;
+    display: flex;
+  }
+  .titulo-tienda {
+    text-align: center;
+  }
   .imagen-carousel {
     width: 30% !important;
     height: auto !important;
@@ -581,7 +589,9 @@ a:visited {
   .slide-boton {
     background-color: #000 !important; }
   #carouselExampleIndicators {
-    background-image: url("/imagenes/Tecnología.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-size: contain;
     margin-bottom: 5px;
     margin-top: 10px;
